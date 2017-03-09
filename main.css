@@ -20,23 +20,11 @@ input{
   width:600px;
 }
 
-input:active{
-  border: 0;
-  -webkit-appearance: none;
-}
-input:focus{
-  border: 0;
-  outline:none;
-  -webkit-appearance: none;
-}
-input:visited{
-  border: 0;
-  -webkit-appearance: none;
-}
-
-input::selection{
-  border: 0;
-  -webkit-appearance: none;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 p{
