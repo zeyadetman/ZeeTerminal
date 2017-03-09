@@ -15,14 +15,8 @@ input{
   display: inline;
   margin-top: -27px;
   margin-left: 15px;
-  -webkit-appearance: none;
-
-  width:600px;
 }
 
-input:focus,
-select:focus,
-textarea:focus,
 input:focus {
     outline: none;
 }
