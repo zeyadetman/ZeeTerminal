@@ -27,19 +27,18 @@ document.getElementById(ne.toString()).innerHTML = ">";
 var inp = document.createElement('input');
 bod.appendChild(inp);
 iidd++;
+inp.focus();
 inp.setAttribute('id',iidd.toString());
 window.addEventListener("keydown", clickHandler, false);
 var x = document.getElementById(iidd.toString()).value;
 function clickHandler(e){
   if(e.keyCode == 13) {
-     document.getElementById(iidd.toString()).autofocus = true;
      excute();
    }
 }
 
 
 function excute(){
-
   document.getElementById(iidd.toString()).disabled = true;
   var x = document.getElementById(iidd.toString()).value;
   //console.log(x);
@@ -73,9 +72,8 @@ lol++;
   var  inpp = document.createElement('input');
     iidd++;
     inpp.setAttribute('id',iidd.toString());
-
     bod.appendChild(inpp);
-
+inpp.focus();
 
   //  document.querySelector('inp').autofocus = true;
 

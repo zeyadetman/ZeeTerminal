@@ -16,23 +16,27 @@ input{
   margin-top: -27px;
   margin-left: 15px;
   -webkit-appearance: none;
+
+  width:600px;
+
+=======
   width: 600px;
 
+>>>>>>> .
 }
 
 input:active{
   border: 0;
-
+  border
   -webkit-appearance: none;
 }
 input:focus{
   border: 0;
-
+  outline:none;
   -webkit-appearance: none;
 }
 input:visited{
   border: 0;
-
   -webkit-appearance: none;
 }
 
