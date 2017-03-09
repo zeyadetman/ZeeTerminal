@@ -18,16 +18,10 @@ input{
   -webkit-appearance: none;
 
   width:600px;
-
-=======
-  width: 600px;
-
->>>>>>> .
 }
 
 input:active{
   border: 0;
-  border
   -webkit-appearance: none;
 }
 input:focus{
